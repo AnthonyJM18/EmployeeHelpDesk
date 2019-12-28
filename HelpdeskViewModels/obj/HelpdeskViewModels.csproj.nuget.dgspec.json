@@ -1,0 +1,154 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Anthony M\\Documents\\Fanshawe CPA\\Sem 3\\Info 3070 Client server app dev\\Workspace\\CaseStudy2\\HelpdeskViewModels\\HelpdeskViewModels.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Anthony M\\Documents\\Fanshawe CPA\\Sem 3\\Info 3070 Client server app dev\\Workspace\\CaseStudy2\\HelpdeskDAL\\HelpdeskDAL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Anthony M\\Documents\\Fanshawe CPA\\Sem 3\\Info 3070 Client server app dev\\Workspace\\CaseStudy2\\HelpdeskDAL\\HelpdeskDAL.csproj",
+        "projectName": "HelpdeskDAL",
+        "projectPath": "C:\\Users\\Anthony M\\Documents\\Fanshawe CPA\\Sem 3\\Info 3070 Client server app dev\\Workspace\\CaseStudy2\\HelpdeskDAL\\HelpdeskDAL.csproj",
+        "packagesPath": "C:\\Users\\Anthony M\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Anthony M\\Documents\\Fanshawe CPA\\Sem 3\\Info 3070 Client server app dev\\Workspace\\CaseStudy2\\HelpdeskDAL\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Anthony M\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[2.2.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.Proxies": {
+              "target": "Package",
+              "version": "[2.2.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[2.2.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.6, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "itext7": {
+              "target": "Package",
+              "version": "[7.1.9, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Anthony M\\Documents\\Fanshawe CPA\\Sem 3\\Info 3070 Client server app dev\\Workspace\\CaseStudy2\\HelpdeskViewModels\\HelpdeskViewModels.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Anthony M\\Documents\\Fanshawe CPA\\Sem 3\\Info 3070 Client server app dev\\Workspace\\CaseStudy2\\HelpdeskViewModels\\HelpdeskViewModels.csproj",
+        "projectName": "HelpdeskViewModels",
+        "projectPath": "C:\\Users\\Anthony M\\Documents\\Fanshawe CPA\\Sem 3\\Info 3070 Client server app dev\\Workspace\\CaseStudy2\\HelpdeskViewModels\\HelpdeskViewModels.csproj",
+        "packagesPath": "C:\\Users\\Anthony M\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Anthony M\\Documents\\Fanshawe CPA\\Sem 3\\Info 3070 Client server app dev\\Workspace\\CaseStudy2\\HelpdeskViewModels\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Anthony M\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "C:\\Users\\Anthony M\\Documents\\Fanshawe CPA\\Sem 3\\Info 3070 Client server app dev\\Workspace\\CaseStudy2\\HelpdeskDAL\\HelpdeskDAL.csproj": {
+                "projectPath": "C:\\Users\\Anthony M\\Documents\\Fanshawe CPA\\Sem 3\\Info 3070 Client server app dev\\Workspace\\CaseStudy2\\HelpdeskDAL\\HelpdeskDAL.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "itext7": {
+              "target": "Package",
+              "version": "[7.1.9, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
